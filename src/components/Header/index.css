@@ -4,7 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px;
+  padding: 32px;
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    padding: 15px;
+  }
 }
 
 .wave-container {
@@ -13,16 +19,16 @@
 }
 
 .wave-image {
-  height: 25px;
-  width: 25px;
-  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
 }
 
 .wave-heading {
-  font-family: 'Roboto';
-  font-size: 18px;
-  font-weight: bold;
   color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .nav-menu-list {
@@ -35,10 +41,10 @@
 }
 
 .nav-link {
+  color: #12022f;
   font-family: 'Roboto';
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   text-decoration: none;
   margin-left: 16px;
-  color: #12022f;
 }

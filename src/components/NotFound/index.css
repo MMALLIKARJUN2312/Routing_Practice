@@ -1,6 +1,6 @@
 /* Write your CSS code here */
 
-.notfound-container {
+.not-found-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,13 +8,19 @@
   height: 70vh;
 }
 
-.notfound-image {
+.not-found-image {
   width: 250px;
 }
 
-.notfound-heading {
+.not-found-heading {
   font-family: 'Roboto';
-  font-size: 50px;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 56px;
   color: #6d396b;
+}
+
+@media (min-width: 576px) {
+  .not-found-heading {
+    font-size: 48px;
+  }
 }
